@@ -1,0 +1,67 @@
+﻿@model Car
+@{
+    ViewData["Title"] = "CarDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Car Detayları</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+           
+            <div>
+                <form asp-action="CarDetails">
+                    <div>
+                        <label class="form-label" asp-for="ID"></label>
+                        <input class="form-control mb-2" asp-for="ID" placeholder="ID" />
+                    </div>
+                    <div>
+                        <label class="form-label" asp-for="ListingDate"></label>
+                        <input class="form-control mb-2" asp-for="ListingDate" placeholder="İlan Tarihi" />
+                    </div>
+
+                  
+                    <div>
+                        <label class="form-label" asp-for="Model"></label>
+                        <input class="form-control mb-2" asp-for="Model" placeholder="Model" />
+                    </div>
+
+                    <div>
+                        <label class="form-label" asp-for="CarYear"></label>
+                        <input class="form-control mb-2" asp-for="CarYear" placeholder="Araç Yılı" />
+                    
+                    </div>
+
+                    <div>
+                        <label class="form-label" asp-for="MotorPower"></label>
+                        <input class="form-control mb-2" asp-for="MotorPower" placeholder="Motor Gücü" />
+                       
+                    </div>
+
+                    <div>
+                        <label class="form-label" asp-for="Km"></label>
+                        <input class="form-control mb-2" asp-for="Km" placeholder="Km" />
+                    </div>
+                    <div>
+                        <label class="form-label" asp-for="Brand"></label>
+                        <select class="dropdown-menu-start ms-4 " asp-for="Brand" asp-items="@(Html.GetEnumSelectList<Brand>())"> </select>
+                    </div>
+                    <div>
+                        <label class="form-label" asp-for="Statu"></label>
+                        <select class="dropdown-menu-start ms-4 " asp-for="Statu" asp-items="@(Html.GetEnumSelectList<Status>())"> </select>
+                    </div>
+                    <div>
+                        <input class="mt-4 btn-primary p-2" type="submit" value="Araç Ekle" />
+                    </div>
+                    <div class="mt-5 text-primary" asp-validation-summary="All"></div>
+
+
+
+                </form>
+
+            </div>
+        </div>
+        <div class="col-md-2"> @ViewBag.postback</div>
+    </div>
+</div>
+

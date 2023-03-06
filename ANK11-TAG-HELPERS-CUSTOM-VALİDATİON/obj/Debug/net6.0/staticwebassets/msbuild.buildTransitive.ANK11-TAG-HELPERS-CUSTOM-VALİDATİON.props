@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.props" />
+</Project>
