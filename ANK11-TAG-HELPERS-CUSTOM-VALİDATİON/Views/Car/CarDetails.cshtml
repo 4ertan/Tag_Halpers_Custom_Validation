@@ -7,7 +7,7 @@
 <h1>Car Detayları</h1>
 <div class="container">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-10 bg-light">
            
             <div>
                 <form asp-action="CarDetails">
@@ -17,13 +17,17 @@
                     </div>
                     <div>
                         <label class="form-label" asp-for="ListingDate"></label>
-                        <input class="form-control mb-2" asp-for="ListingDate" placeholder="İlan Tarihi" />
+                        <input class="form-control mb-2" asp-for="ListingDate" placeholder="İlan Tarihi" value="@DateTime.Now" />
                     </div>
 
                   
                     <div>
                         <label class="form-label" asp-for="Model"></label>
                         <input class="form-control mb-2" asp-for="Model" placeholder="Model" />
+                    </div>
+                    <div>
+                        <label class="form-label" asp-for="Price"></label>
+                        <input class="form-control mb-2" asp-for="Price" placeholder="Price" />
                     </div>
 
                     <div>
@@ -37,7 +41,11 @@
                         <input class="form-control mb-2" asp-for="MotorPower" placeholder="Motor Gücü" />
                        
                     </div>
+                        <div>
+                        <label class="form-label" asp-for="Vites"></label>
+                        <input class="form-control mb-2" asp-for="Vites" placeholder="Vites Türü" />
 
+                    </div>
                     <div>
                         <label class="form-label" asp-for="Km"></label>
                         <input class="form-control mb-2" asp-for="Km" placeholder="Km" />
@@ -53,7 +61,7 @@
                     <div>
                         <input class="mt-4 btn-primary p-2" type="submit" value="Araç Ekle" />
                     </div>
-                    <div class="mt-5 text-primary" asp-validation-summary="All"></div>
+                    <div class="mt-5 text-white bg-danger" asp-validation-summary="All"></div>
 
 
 

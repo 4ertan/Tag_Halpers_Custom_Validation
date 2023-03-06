@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ertan\\Desktop\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj": {}
+    "C:\\Users\\Ertan\\Desktop\\Validation\\Tag_Halpers_Custom_Validation\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ertan\\Desktop\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj": {
+    "C:\\Users\\Ertan\\Desktop\\Validation\\Tag_Halpers_Custom_Validation\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ertan\\Desktop\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj",
+        "projectUniqueName": "C:\\Users\\Ertan\\Desktop\\Validation\\Tag_Halpers_Custom_Validation\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj",
         "projectName": "ANK11-TAG-HELPERS-CUSTOM-VALİDATİON",
-        "projectPath": "C:\\Users\\Ertan\\Desktop\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj",
+        "projectPath": "C:\\Users\\Ertan\\Desktop\\Validation\\Tag_Halpers_Custom_Validation\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj",
         "packagesPath": "C:\\Users\\Ertan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ertan\\Desktop\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\obj\\",
+        "outputPath": "C:\\Users\\Ertan\\Desktop\\Validation\\Tag_Halpers_Custom_Validation\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

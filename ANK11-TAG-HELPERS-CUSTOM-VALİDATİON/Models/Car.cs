@@ -1,4 +1,5 @@
 ﻿using ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Car_Validations;
+using ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Custom_Validations;
 using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
@@ -29,8 +30,12 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Models
         [Display(Name = "İlan Tarihi")]
         [CarListingDateValidation]
         public DateTime ListingDate { get; set; }
-        
+        [CarPriceValidation]
         public decimal Price { get; set; }
+        [StringLength(2,ErrorMessage ="Vites türünü eksik girdiniz.")]
+        [MaxLength(10,ErrorMessage ="Vites türüne fazla karakter girildi.")]
+        [VitesValidation]
+        public string Vites { get; set; }
     }
     public enum Status
     {

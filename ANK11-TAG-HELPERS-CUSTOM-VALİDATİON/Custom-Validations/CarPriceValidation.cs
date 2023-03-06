@@ -8,9 +8,9 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Car_Validations
         {
             decimal fyt = Convert.ToInt32(value);
 
-            if (fyt< 0 && fyt> 2147483647000)
+            if (fyt< 0 || fyt> 2147483647000)
             {
-                return new ValidationResult("Lütfen doğru aralık giriniz.");
+                return new ValidationResult("Lütfen doğru fiyat aralığı giriniz.");
             }
             else
             {

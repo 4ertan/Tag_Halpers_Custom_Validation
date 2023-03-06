@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eVJ8wGdrKdawn0LXlFSgl8N3qIb+Dej1Z3kY8K8Rg5I9pFfzfbGoOM+12taCcPiHWNBoMGN3Vm1/NF5cu3vP2g==",
+  "dgSpecHash": "6FdIdX/FCZNzZ/7MI8CbmWwDT3cH6XS8bm4e3dfDNLjyUiWI2lN9r+ePqmJ8fLbgKD8SsbpmLPmd67j4Ebzgow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ertan\\Desktop\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj",
+  "projectFilePath": "C:\\Users\\Ertan\\Desktop\\Validation\\Tag_Halpers_Custom_Validation\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON\\ANK11-TAG-HELPERS-CUSTOM-VALİDATİON.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ertan\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Ertan\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
