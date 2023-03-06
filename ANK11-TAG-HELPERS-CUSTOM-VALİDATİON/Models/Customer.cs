@@ -15,11 +15,11 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Models
         public string CompanyName { get; set; }
 
 
-        //[EmailAddress]
+
         [Display(Name = "E-Mail")]
         [DataType(DataType.EmailAddress)]
         [RegularExpression(@"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$", ErrorMessage = "Please enter a valid e-mail adress")]
-        //regex ile mail kontrolü.
+
         [Required]
         public string Email { get; set; }
 

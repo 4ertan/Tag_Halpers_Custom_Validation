@@ -25,26 +25,16 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Controllers
         }
         public IActionResult CustomerDetails()
         {
-            //Customer sınıfı oluşturunuz
-            //customerID,CompanyName,Age,Email,JoinDate,Enum CustomerType=> New=0, Regular ,Elite
-            //Required , ERROR MESSAGE
-
-            //html tag helper ? asp tag helper nedir ?
+           
 
             ViewBag.postback = "Hayallerim";
             return View(new Customer());
         }
 
-        [HttpPost] //DERSTE BUNU YAZMAYI UNUTTUM.
+        [HttpPost] 
         public IActionResult CustomerDetails(Customer customer)
         {
-            //Customer sınıfı oluşturunuz
-            //customerID,CompanyName,Age,Email,JoinDate,Enum CustomerType=> New=0, Regular ,Elite
-            //Required , ERROR MESSAGE
-
-            //html tag helper ? asp tag helper nedir ?
-
-      
+         
             return View(customer);
         }
 

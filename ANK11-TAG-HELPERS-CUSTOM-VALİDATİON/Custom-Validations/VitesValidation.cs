@@ -6,10 +6,10 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Custom_Validations
     {
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-
+            if (value!=null)
+            {
             int vtsL = value.ToString().Length;
-
-            if (vtsL < 2 || vtsL > 10)
+                if (vtsL < 2 || vtsL > 10)
                 {
                     return new ValidationResult("Vites istenilen aralıkta değil.");
                 }
@@ -17,10 +17,17 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Custom_Validations
                 {
                     return ValidationResult.Success;
                 }
+            }
+            else
+            {
+                return new ValidationResult("Vites değeri giriniz.");
+            }
+
+          
            
            
         }
-        public override bool IsValid(object? value) //iki farklı kullanımı mevcut. Aradaki farkları araştırın.
+        public override bool IsValid(object? value) 
         {
             return base.IsValid(value);
         }

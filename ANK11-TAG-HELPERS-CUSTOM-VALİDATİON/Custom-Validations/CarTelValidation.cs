@@ -2,24 +2,21 @@
 
 namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Custom_Validations
 {
-    public class AgeValidation:ValidationAttribute
+    public class CarTelValidation:ValidationAttribute   
     {
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            int _age = Convert.ToInt32(value);
+            if (value!=null && value.ToString().Length==11)
+            {
 
-            if (_age < 41 && _age > 19)
-            {
                 return ValidationResult.Success;
+
             }
-            else
-            {
-                return new ValidationResult("Age is not valid.");
-            }
+            return new ValidationResult("Lütfen Telefon numarınızı doğru bicimde giriniz.");
         }
         public override bool IsValid(object? value)
         {
-            return base.IsValid(value);
+            return base.IsValid(value); 
         }
     }
 }

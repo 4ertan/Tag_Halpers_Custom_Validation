@@ -36,6 +36,8 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Models
         [MaxLength(10,ErrorMessage ="Vites türüne fazla karakter girildi.")]
         [VitesValidation]
         public string Vites { get; set; }
+        [CarTelValidation]
+        public string PhoneNo { get; set; }
     }
     public enum Status
     {

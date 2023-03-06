@@ -17,7 +17,7 @@ namespace ANK11_TAG_HELPERS_CUSTOM_VALİDATİON.Car_Validations
                 return ValidationResult.Success;
             }
         }
-        public override bool IsValid(object? value) //iki farklı kullanımı mevcut. Aradaki farkları araştırın.
+        public override bool IsValid(object? value) 
         {
             return base.IsValid(value);
         }
